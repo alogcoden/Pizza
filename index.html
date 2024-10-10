@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pizza</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="bg-[#F9F9F9]">
+    <header class="bg-[#fff]">
+      <div class="flex justify-between px-[195px] py-[11px]">
+        <div class="flex gap-x-[11px]">
+          <img src="icons/location.svg" alt="locate" />
+          <span class="text-[14px]">Москва</span>
+        </div>
+        <div class="flex gap-x-[40px] text-[14px]">
+          <span>Проверить адрес</span>
+          <span
+            >Среднее время доставки*:
+            <span class="font-semibold">00:24:19</span></span
+          >
+        </div>
+        <div class="flex gap-x-[40px] text-[14px]">
+          <span>Время работы: с 11:00 до 23:00</span>
+          <div class="flex gap-x-[10px]">
+            <img src="icons/account.svg" alt="account" />
+            <span>Войти в аккаунт</span>
+          </div>
+        </div>
+      </div>
+      <hr />
+      <div
+        class="py-[12px] pl-[197px] pr-[195px] flex items-center justify-between"
+      >
+        <div class="flex items-center gap-x-[12px]">
+          <img src="image/logo.svg" alt="logo" />
+          <span>Куда пицца</span>
+        </div>
+        <button
+          class="w-[89px] h-[40px] bg-[#FF7010] rounded flex gap-x-[9px] justify-center items-center text-[#fff]"
+        >
+          <img src="image/bag.svg" alt="bag" />
+          <span>0 ₽</span>
+        </button>
+      </div>
+    </header>
+    <section class="mt-[30px] px-[195px] flex gap-x-[30px]">
+      <div
+        class="w-[135px] h-[104px] rounded-xl bg-[#fff] flex flex-col justify-center items-center cursor-pointer gap-y-[8px]"
+      >
+        <img src="image/fite.svg" alt="fire" />
+        <span class="hover:text-[red]">Акции</span>
+      </div>
+      <div
+        class="w-[135px] h-[104px] rounded-xl bg-[#fff] flex flex-col justify-center items-center cursor-pointer gap-y-[8px]"
+      >
+        <img src="icons/pizza.svg" alt="pizza" />
+        <span class="hover:text-[red]">Пицца</span>
+      </div>
+      <div
+        class="w-[135px] h-[104px] rounded-xl bg-[#fff] flex flex-col justify-center items-center cursor-pointer gap-y-[8px]"
+      >
+        <img src="icons/sushi.svg" alt="sushi" />
+        <span class="hover:text-[red]">Суши</span>
+      </div>
+      <div
+        class="w-[135px] h-[104px] rounded-xl bg-[#fff] flex flex-col justify-center items-center cursor-pointer gap-y-[8px]"
+      >
+        <img src="icons/drink.svg" alt="drink" />
+        <span class="hover:text-[red]">Напитки</span>
+      </div>
+      <div
+        class="w-[135px] h-[104px] rounded-xl bg-[#fff] flex flex-col justify-center items-center cursor-pointer gap-y-[8px]"
+      >
+        <img src="icons/snaks.svg" alt="snaks" />
+        <span class="hover:text-[red]">Закуски</span>
+      </div>
+      <div
+        class="w-[135px] h-[104px] rounded-xl bg-[#fff] flex flex-col justify-center items-center cursor-pointer gap-y-[8px]"
+      >
+        <img src="icons/combo.svg" alt="combo" />
+        <span class="hover:text-[red]">Комбо</span>
+      </div>
+      <div
+        class="w-[135px] h-[104px] rounded-xl bg-[#fff] flex flex-col justify-center items-center cursor-pointer gap-y-[8px]"
+      >
+        <img src="icons/dessert.svg" alt="dessert" />
+        <span class="hover:text-[red]">Десерты</span>
+      </div>
+      <div
+        class="w-[135px] h-[104px] rounded-xl bg-[#fff] flex flex-col justify-center items-center cursor-pointer gap-y-[8px]"
+      >
+        <img src="icons/sauce.svg" alt="sauce" />
+        <span class="hover:text-[red]">Соусы</span>
+      </div>
+    </section>
+    <section class="flex justify-between px-[195px] mt-[30px]">
+      <img src="image/999.png" alt="999" class="w-[200px] h-[250px]" />
+      <img src="image/10.png" alt="10" class="w-[200px] h-[250px]" />
+      <img src="image/999.png" alt="999" class="w-[200px] h-[250px]" />
+      <img src="image/10.png" alt="10" class="w-[200px] h-[250px]" />
+    </section>
+    <section class="flex w-[100%] px-[195px] mt-[30px]">
+      <div
+        class="w-[100%] bg-[#fff] py-[16px] px-[32px] flex justify-between items-center"
+      >
+        <span class="text[18px]">Проверить адрес доставки</span>
+        <input
+          type="email"
+          class="w-[55%] border-2 pl-[40px] h-[48px] text-[16px] rounded-md"
+          placeholder="Адрес"
+        />
+        <button
+          class="w-[150px] h-[48px] bg-[#FF7010] rounded-md ml-[20px] text-[#fff] text-[16px]"
+        >
+          Проверить
+        </button>
+      </div>
+    </section>
+    <section class="mt-[30px] px-[195px]">
+      <div class="flex justify-between items-center">
+        <h1 class="text-[40px] font-semibold">Пицца</h1>
+        <div
+          class="flex gap-x-[8px] items-center bg-[#fff] px-[16px] py-[9px] rounded-md"
+        >
+          <img src="icons/filter.svg" alt="filter" />
+          <span class="text-[16px]">Фильтры</span>
+        </div>
+      </div>
+      <div class="flex gap-[30px] flex-wrap mt-[32px]">
+        <div class="bg-[#fff] p-[20px] w-[300px]">
+          <img src="image/p-1.png" alt="p-1" />
+          <div class="flex flex-col gap-y-[16px]">
+            <h2 class="text-[18px] font-semibold">Чикен Сладкий Чили</h2>
+            <p class="text-[16px]">Курица, Лук, Перец Халапеньо, Сыр Моцарелла, Томатный соу...</p>
+            <div class="flex justify-between items-center">
+              <button class="w-[131px] h-[48px] rounded-md bg-[#FF7010] text-[16px] text-[#fff]">Выбрать</button>
+              <span class="text-[16px] text-[#FF7010] font-semibold">от 399 ₽</span>
+            </div>
+          </div>
+        </div>
+        <div class="bg-[#fff] p-[20px] w-[300px]">
+          <img src="image/p-2.png" alt="p-2" />
+          <div class="flex flex-col gap-y-[16px]">
+            <h2 class="text-[18px] font-semibold">EASY PEASY огуречный расколбас</h2>
+            <p class="text-[16px]">Курица, Лук, Перец Халапеньо...</p>
+            <div class="flex justify-between items-center">
+              <button class="w-[131px] h-[48px] rounded-md bg-[#FF7010] text-[16px] text-[#fff]">Выбрать</button>
+              <span class="text-[16px] text-[#FF7010] font-semibold">от 549 ₽</span>
+            </div>
+          </div>
+        </div>
+        <div class="bg-[#fff] p-[20px] w-[300px]">
+          <img src="image/p-3.png" alt="p-3" />
+          <div class="flex flex-col gap-y-[16px]">
+            <h2 class="text-[18px] font-semibold">EASY PEASY чикен а-ля хрен</h2>
+            <p class="text-[16px]">Курица, Лук, Соус Карбонара,...</p>
+            <div class="flex justify-between items-center">
+              <button class="w-[131px] h-[48px] rounded-md bg-[#FF7010] text-[16px] text-[#fff]">Выбрать</button>
+              <span class="text-[16px] text-[#FF7010] font-semibold">от 249 ₽</span>
+            </div>
+          </div>
+        </div>
+        <div class="bg-[#fff] p-[20px] w-[300px]">
+          <img src="image/p-4.png" alt="p-4" />
+          <div class="flex flex-col gap-y-[16px]">
+            <h2 class="text-[18px] font-semibold">4 сезона</h2>
+            <p class="text-[16px]">Бекон, Ветчина, Грибы, Курица, Лук, Маслины, Огурцы мари...</p>
+            <div class="flex justify-between items-center">
+              <button class="w-[131px] h-[48px] rounded-md bg-[#FF7010] text-[16px] text-[#fff]">Выбрать</button>
+              <span class="text-[16px] text-[#FF7010] font-semibold">от 630 ₽</span>
+            </div>
+          </div>
+        </div>
+        <div class="bg-[#fff] p-[20px] w-[300px]">
+          <img src="image/p-5.png" alt="p-5" />
+          <div class="flex flex-col gap-y-[16px]">
+            <h2 class="text-[18px] font-semibold">4 сезона</h2>
+            <p class="text-[16px]">Бекон, Ветчина, Грибы, Курица, Лук, Маслины, Огурцы мари...</p>
+            <div class="flex justify-between items-center">
+              <button class="w-[131px] h-[48px] rounded-md bg-[#FF7010] text-[16px] text-[#fff]">Выбрать</button>
+              <span class="text-[16px] text-[#FF7010] font-semibold">от 630 ₽</span>
+            </div>
+          </div>
+        </div>
+        <div class="bg-[#fff] p-[20px] w-[300px]">
+          <img src="image/p-6.png" alt="p-1" />
+          <div class="flex flex-col gap-y-[16px]">
+            <h2 class="text-[18px] font-semibold">EASY PEASY чикен а-ля хрен</h2>
+            <p class="text-[16px]">Курица, Лук, Соус Карбонара,...</p>
+            <div class="flex justify-between items-center">
+              <button class="w-[131px] h-[48px] rounded-md bg-[#FF7010] text-[16px] text-[#fff]">Выбрать</button>
+              <span class="text-[16px] text-[#FF7010] font-semibold">от 249 ₽</span>
+            </div>
+          </div>
+        </div>
+        <div class="bg-[#fff] p-[20px] w-[300px]">
+          <img src="image/p-8.png" alt="p-1" />
+          <div class="flex flex-col gap-y-[16px]">
+            <h2 class="text-[18px] font-semibold">Чикен Сладкий Чили</h2>
+            <p class="text-[16px]">Курица, Лук, Перец Халапеньо, Сыр Моцарелла, Томатный соу...</p>
+            <div class="flex justify-between items-center">
+              <button class="w-[131px] h-[48px] rounded-md bg-[#FF7010] text-[16px] text-[#fff]">Выбрать</button>
+              <span class="text-[16px] text-[#FF7010] font-semibold">от 399 ₽</span>
+            </div>
+          </div>
+        </div>
+        <div class="bg-[#fff] p-[20px] w-[300px]">
+          <img src="image/p-7.png" alt="p-1" />
+          <div class="flex flex-col gap-y-[16px]">
+            <h2 class="text-[18px] font-semibold">EASY PEASY огуречный расколбас</h2>
+            <p class="text-[16px]">Курица, Лук, Перец Халапеньо...</p>
+            <div class="flex justify-between items-center">
+              <button class="w-[131px] h-[48px] rounded-md bg-[#FF7010] text-[16px] text-[#fff]">Выбрать</button>
+              <span class="text-[16px] text-[#FF7010] font-semibold">от 549 ₽</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="mt-[60px] bg-[#fff] px-[195px] py-[32px] flex justify-between">
+      <div class="flex flex-col justify-between">
+        <div class="flex items-center gap-x-[12px]">
+          <img src="image/logo.svg" alt="logo" />
+          <span>Куда пицца</span>
+        </div>
+        <span class="text-16px">© Copyright 2021 — Куда Пицца</span>
+      </div>
+      <div class="flex flex-col">
+        <h2 class="text-[20px] font-semibold mb-[22px]">Куда пицца</h2>
+        <ul class="text-[16] flex flex-col gap-y-[20px]">
+          <li>О компании</li>
+          <li>Пользовательское соглашение</li>
+          <li>Условия гарантии</li>
+        </ul>
+      </div>
+      <div class="flex flex-col">
+        <h2 class="text-[20px] font-semibold mb-[22px]">Помощь</h2>
+        <ul class="text-[16] flex flex-col gap-y-[20px]">
+          <li>Ресторан</li>
+          <li>Контакты</li>
+          <li>Поддержка</li>
+          <li>Отследить заказ</li>
+        </ul>
+      </div>
+      <div class="flex flex-col gap-y-[20px]">
+        <h2 class="text-[20px] font-semibold mb-[22px]">Контакты</h2>
+       <div class="flex gap-x-[12px] items-center text-[16px]">
+        <img src="icons/tel.svg" alt="tel">
+        <span>+7 (926) 223-10-11</span>
+       </div>
+       <div class="flex gap-x-[12px] items-center text-[16px]">
+        <img src="icons/f-loc.svg" alt="tel">
+        <span>Москва, ул. Юных Ленинцев, д.99</span>
+       </div>
+       <div class="flex gap-x-[12px] items-center text-[16px]">
+        <div class="flex gap-x-[12px] items-center">
+          <img src="icons/face.svg" alt="face">
+          <span>Facebok</span>
+        </div>
+        <div class="flex gap-x-[12px] items-center">
+          <img src="icons/inst.svg" alt="insta">
+          <span>Instagram</span>
+        </div>
+       </div>
+      </div>
+    </footer>
+  </body>
+</html>
